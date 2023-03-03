@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-img{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.header-text{
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #CE9898;
+    width: 311px;
+}
+
+.second-text{
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 10.8254px;
+    color: #423A3A;
+    width: 311px;
+}
+
+.header-p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #d68585;
+    width: 311px;
+    height: 88px;
+    margin-left: 25px;
+}
+
+.meil-content{
+    display: flex;
+    margin-left: 25px;
+}
+
+.meil-content input{
+    height: 48px;
+    width: 311px;
+    border-radius: 28px;
+    border-color: rgba(249, 100, 100, 1);
+}
+
+.meil-content p{
+    height: 52px;
+    width: 90px;
+    border-radius: 33px;
+    border: #d68585 solid 3px;
+    text-align: center;
+    transform: translateX(-79px);
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+    vertical-align: 5cm;
+    font-size: 31px;
+    cursor: pointer;
+    border: none;
+}
+
+.error{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #f51e1e;
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.desctop-img{
+    display: none;
+}
+
+/* desctop */
+body{
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+}
+
+@media screen and (min-width: 1024px) {
+    .cover-img{
+        display: none;
+    }
+
+    .main{
+        display: flex;        
+    }
+    
+    .desctop-img{
+        object-fit: cover;
+        margin-top: -100px;
+        display: flex;
+    }
+
+    .header-text{
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        text-align: left;
+        margin-left: 27px;
+        margin-top: 60px;
+    }
+
+    .second-text{
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 64px;
+        text-align: left;
+        margin-left: 27px;
+        margin-bottom: 32px;
+    }
+
+    .header-p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+        margin-bottom: 60px;        
+    }
+}
